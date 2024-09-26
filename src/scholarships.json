@@ -1,0 +1,79 @@
+{
+    "scholarships": [
+      {
+        "id": 1,
+        "name": "Global Leaders Scholarship",
+        "provider": "University of Excellence",
+        "amount": "$10,000",
+        "eligibility": "International students with a minimum GPA of 3.5",
+        "deadline": "2024-12-01",
+        "country": "Global",
+        "field_of_study": "Any",
+        "application_link": "https://universityofexcellence.edu/global-leaders-scholarship",
+        "notes": "Requires an essay on leadership experience."
+      },
+      {
+        "id": 2,
+        "name": "STEM Innovators Scholarship",
+        "provider": "TechCorp Foundation",
+        "amount": "$5,000",
+        "eligibility": "Students enrolled in STEM programs with at least a 3.0 GPA",
+        "deadline": "2024-11-15",
+        "country": "USA",
+        "field_of_study": "STEM (Science, Technology, Engineering, Mathematics)",
+        "application_link": "https://techcorp.org/scholarships/stem-innovators",
+        "notes": "Open to undergraduate students only."
+      },
+      {
+        "id": 3,
+        "name": "Women in Technology Scholarship",
+        "provider": "CodeAcademy",
+        "amount": "$8,000",
+        "eligibility": "Female students pursuing degrees in Computer Science or IT",
+        "deadline": "2024-10-30",
+        "country": "Global",
+        "field_of_study": "Computer Science, Information Technology",
+        "application_link": "https://codeacademy.com/scholarships/women-in-tech",
+        "notes": "Must submit a project portfolio and a letter of recommendation."
+      },
+      {
+        "id": 4,
+        "name": "Environmental Conservation Scholarship",
+        "provider": "Green Earth Foundation",
+        "amount": "$3,000",
+        "eligibility": "Students focusing on environmental studies or related fields",
+        "deadline": "2024-09-30",
+        "country": "Global",
+        "field_of_study": "Environmental Studies, Ecology",
+        "application_link": "https://greenearth.org/scholarships/conservation",
+        "notes": "Includes an internship opportunity at Green Earth."
+      },
+      {
+
+        "id": 5,
+        "name": "Nepalese Students Merit Scholarship",
+        "provider": "Nepal Education Fund",
+        "amount": "NPR 100,000",
+        "eligibility": "Nepalese citizens with outstanding academic performance (GPA 3.8+)",
+        "deadline": "2024-11-01",
+        "country": "Nepal",
+        "field_of_study": "Any",
+        "application_link": "https://nepaledfund.org/scholarships/merit",
+        "notes": "Requires proof of citizenship and academic transcripts."
+
+      },
+      {
+        "id": 6,
+        "name": "Nepalese Students Merit Scholarship",
+        "provider": "Nepal Education Fund",
+        "amount": "NPR 100,000",
+        "eligibility": "Nepalese citizens with outstanding academic performance (GPA 3.8+)",
+        "deadline": "2024-11-01",
+        "country": "Nepal",
+        "field_of_study": "Any",
+        "application_link": "https://nepaledfund.org/scholarships/merit",
+        "notes": "Requires proof of citizenship and academic transcripts."
+      }
+    ]
+  }
+  
