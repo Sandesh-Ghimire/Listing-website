@@ -16,8 +16,22 @@ import Login from './components/Login'; // Import Login component
 import Register from './components/Register'; // Import Register component
 import Logout from './components/Logout';
 import PrivateGuidanceForm from './components/PrivateGuidanceForm';
+import AddScholarship from './pages/AddScholarship';
 
 function App() {
+
+  const addscholar = async(newScholarship)=> {
+    const res= await  fetch('/api/scholarships',{
+    method: 'POST',
+    headers:{
+      'Content-Type':'application/json'
+    },
+    body: JSON.stringify(newScholarship),
+        }
+      );
+      return;
+    };
+    
 
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -31,6 +45,7 @@ function App() {
         <Route path="/register" element={<Register />} /> {/* Add Register route */}
         <Route path="/logout" element={<Logout />} /> {/* Add Logout route */}
         <Route path="/privateguide" element={<PrivateGuidanceForm/>}/>
+        <Route path='/AddScholarship' element={<AddScholarship addScholarshipSubmit={addscholar}/>}/>
       </Route>
     )
   );
